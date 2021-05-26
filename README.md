@@ -45,7 +45,7 @@ Defina en su codigo PHP las siguientes constantes
 
 ```
 define('MOOVIN_USERNAME', "your username");
-define('MOOVIN_PASSWORD', "your passwrod");
+define('MOOVIN_PASSWORD', "your password");
 define('MOOVIN_DEBUG', true);
 define('MOOVIN_PROD', false);
 ```
