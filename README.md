@@ -43,10 +43,12 @@ PHP CURL
 ##Instalación
 Defina en su codigo PHP las siguientes constantes
 
-`define('MOOVIN_USERNAME', "your username");`
-`define('MOOVIN_PASSWORD', "your passwrod");`
-`define('MOOVIN_DEBUG', true);`
-`define('MOOVIN_PROD', false);`
+```
+define('MOOVIN_USERNAME', "your username");
+define('MOOVIN_PASSWORD', "your passwrod");
+define('MOOVIN_DEBUG', true);
+define('MOOVIN_PROD', false);
+```
 
 Si no está usando el autoload, simplemente cargue esta biblioteca en su proyecto PHP incluyendo moovin.php
 
