@@ -28,7 +28,7 @@ Luego se procedera a realizar la entrega del ID de Cliente y su Contraseña, los
 ###Manual
 Usted puede descargar el codigo de github:
 
-`git clone git://github.com/faisalman/simple-excel-php`
+`git clone https://github.com/MoovinCRC/moovin-ecommerce-php`
 
 ###Composer
 
