@@ -1,6 +1,7 @@
 # API Ecommerce
 
-##Introducción
+## Introducción
+
 Optimice sus procesos de envío y reduzca el tiempo de preparación de envíos al integrar en su negocio el servicio logístico de Moovin.
 
 Gracias a la integración con nuestro API podrás imprimir las etiquetas y pedir la recogida de forma rápida. Podrás conocer en todo momento el estado del envío y su localización en tiempo real, enviamos tus pedidos siempre con la mejor opción de forma automática.
@@ -50,7 +51,7 @@ Si no está usando el autoload, simplemente cargue esta biblioteca en su proyect
 
 `require_once "../your/project/directory/here/lib/moovin.php";`
 
-##Ejemplo de uso
+## Ejemplo de uso
 
 ### Autenticación
 
@@ -67,7 +68,7 @@ $response = $moovin->authPartner();
 
 ```
 
-##Estimación
+## Estimación
 
 Permite obtener las posibles formas de entrega con su costo y tiempo de entrega.
 
@@ -228,7 +229,8 @@ $response = $moovin->createOrderMoovin($token, $params);
 
 ```
 
-##Orden lista para recoger
+## Orden lista para recoger
+
 Este método permite indicar que la orden se encuentra lista para ser recogida por un Moover (mensajero).
 
 ```
@@ -240,7 +242,8 @@ Request
 $response = $moovin->createOrderMoovin($token, $params);
 ```
 
-##Eliminar una order
+## Eliminar una order
+
 Las órdenes pueden ser eliminadas si su estado es uno de los siguientes:
 
 Creado (INSERT)
@@ -256,7 +259,8 @@ Request
 $response = $moovin->deleteOrderMoovin($token, $idPackage);
 ```
 
-##Validar si se encuentra dentro de la zona de cobertura
+## Validar si se encuentra dentro de la zona de cobertura
+
 Este servicio permite saber si una ubicación señalada en el mapa se encuentra dentro o fuera del área de cobertura por parte del servicio que ofrece Moovin.
 
 ```
@@ -269,7 +273,7 @@ Request
 $response = $moovin->checkLocationValidMoovin($token, $latitude , $longitude);
 ```
 
-##Puntos de la zona de cobertura
+## Puntos de la zona de cobertura
 
 Se muestra una lista de coordenadas geográficas (path de coordenadas) que corresponden a la zona de cobertura de servicios de Moovin.
 
@@ -282,11 +286,12 @@ Request
 $response = $moovin->getZoneCoverageMoovin($token);
 ```
 
-##Solicitud estado del paquete
+## Solicitud estado del paquete
 
 Se realiza la consulta, para conocer si el paquete se ha entregado.
 
-#####Estados
+##### Estados
+
 NOEXISTPACKAGE: Si el paquete no existe en el sistema.
 DELIVERED:: El paquete ha sido entregado.
 UNDELIVERED:: El paquete no se a entregado.
