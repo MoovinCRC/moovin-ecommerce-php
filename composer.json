@@ -1,0 +1,35 @@
+{
+  "name": "moovin/phpecommerce",
+  "description": "Ecommerce - Moovin - API",
+  "keywords": [
+    "PHP",
+    "Moovin",
+    "Ecommerce",
+    "api"
+  ],
+  "homepage": "https://moovin.me",
+  "type": "library",
+  "license": "LGPL-2.1",
+  "authors": [
+    {
+      "name": "Javier Hernandez",
+      "homepage": "https://github.com/javier4mar",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^5.2|^7.0",
+    "ext-mbstring": "*",
+    "ext-xml": "*",
+    "ext-xmlwriter": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.*"
+  },
+  "autoload": {
+    "classmap": [
+      "lib/"
+    ]
+  }
+}
