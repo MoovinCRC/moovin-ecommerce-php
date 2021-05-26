@@ -25,12 +25,13 @@ Luego se procedera a realizar la entrega del ID de Cliente y su Contraseña, los
 
 ## Descarga
 
-###Manual
+### Manual
+
 Usted puede descargar el codigo de github:
 
 `git clone https://github.com/MoovinCRC/moovin-ecommerce-php`
 
-###Composer
+### Composer
 
 `"require": { "moovin/phpecommerce": "1.0" }`
 
